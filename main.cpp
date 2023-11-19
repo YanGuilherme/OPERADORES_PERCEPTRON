@@ -55,7 +55,7 @@ int main(){
         cin >> escolha;
         switch(escolha){
             case 1:{
-                system("clear");
+                system("cls");
                 inicializar_perceptron_and(&dados);    
                 Perceptron and_perceptron(dados.pesos, dados.bias, dados.num_entradas);
                 cout << "-----------------------" << endl;
@@ -68,7 +68,7 @@ int main(){
                 break;
                 }
             case 2:{
-                system("clear");
+                system("cls");
                 inicializar_perceptron_or(&dados);    
                 Perceptron or_perceptron(dados.pesos,dados.bias,dados.num_entradas);
                 cout << "-----------------------" << endl;
@@ -81,7 +81,7 @@ int main(){
                 break;
                 }
             case 3:{
-                system("clear");
+                system("cls");
                 inicializar_perceptron_not(&dados);    
                 Perceptron not_perceptron(dados.pesos,dados.bias,dados.num_entradas);
                 cout << "-----------------------" << endl;
@@ -97,8 +97,8 @@ int main(){
                 x = false;
                 break;
             default:
-                system("clear");
-                cout << "Opcao inválida." << endl << endl;
+                system("cls");
+                cout << "OPCAO INVALIDA." << endl << endl;
                 break;
         }
     }

@@ -16,4 +16,4 @@ $(TARGET): $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $(OBJECTS) -o $(TARGET)
 
 clean:
-	rm -f $(OBJECTS) $(TARGET)
+	del -f $(OBJECTS) $(TARGET)
